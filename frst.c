@@ -1,33 +1,32 @@
 
 //u r riding a bicycle whose radius is 15inches.after how many tyre rotations u will cover distance of x metre? write a program to solve this problem
-//#include <stdio.h>
+#include <stdio.h>
+int main() {
+    int age = 18;
 
-//int main() {
-  //  int age = 18;
+    if (age > 18) {
+       printf("Person is eligible to vote");
+    } else {
+        printf("Person is not eligible for vote");
+    }
 
-    //if (age > 18) {
-    //    printf("Person is eligible to vote");
-    //} else {
-      //  printf("Person is not eligible for vote");
-    //}
-
-    //return 0;
-//}
-//#include <stdio.h>
-//int main()
-//{
-  //  int a;
-    //printf("enter the age of the person");
-    //scanf("%d",&a);
-    //if(a>=18)
-    //printf("person can be a legal voter");
-    //else
-    //printf("person can't be a legal votes");
-    //return 0;
-//}
+    return 0;
+}
+#include <stdio.h>
+int main()
+{
+   int a;
+    printf("enter the age of the person");
+    scanf("%d",&a);
+    if(a>=18)
+    printf("person can be a legal voter");
+    else
+    printf("person can't be a legal votes");
+    return 0;
+}
 //write a program to calculate time required to reach a destination which is x km far ,then you ask for mode of trnsport from user and then u ask the avg speed ,now the speed that the user will enter can not exeed this value that is given walk
 //:10 kmph,cycle :30 kmph,bike:80 kmph,car : 120 kmph, udkke : 2000 kmph these r the limits 
-/*#include <stdio.h>
+#include <stdio.h>
 int main(){
     float distance,speed,time;
     char mode;
@@ -43,8 +42,8 @@ int main(){
     printf("Speed: %.2f km/h\n", speed);
 
     return 0;
-}*/
-/*#include <stdio.h>
+}
+#include <stdio.h>
 void area(float x);
 
 int main(){
@@ -159,8 +158,8 @@ int main() {
     }
 
     return 0;
-}*/
-/*#include <stdio.h>
+}
+#include <stdio.h>
 int main()
 {
     int d,m;
@@ -435,7 +434,7 @@ int main() {
     }
 
     return 0;
-}*/
+}
 #include <stdio.h>
 
 
@@ -458,7 +457,7 @@ int main() {
     return 0;
 }
 
-
+// Checking whether a number is even or odd
 
 
 
